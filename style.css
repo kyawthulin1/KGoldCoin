@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #111827, #1f2937);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 95%;
+  max-width: 420px;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#username {
+  color: gold;
+  margin-bottom: 20px;
+}
+
+.balance {
+  background: #222;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.balance h1 {
+  font-size: 42px;
+  color: gold;
+}
+
+.balance span {
+  font-size: 20px;
+}
+
+#tapButton {
+  width: 180px;
+  height: 180px;
+  border: none;
+  border-radius: 50%;
+  background: gold;
+  font-size: 80px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+  box-shadow: 0 8px 20px rgba(255, 215, 0, .4);
+}
+
+#tapButton:active {
+  transform: scale(0.95);
+}
+
+.energy {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 15px;
+}
